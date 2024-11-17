@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    max-width: 1240px; 
+    margin: 0 auto;
+    padding: 24px;
+}
+.burger-menu{
+    display: none;
+}
+ .shop-co h1{
+    font-size: 32px;
+    font-family: "Integral CF Regular";
+} 
+ .nav-list ul{
+    display: flex;
+    list-style: none;
+} 
+.nav-list ul li{
+    padding: 15px;
+}   
+.searchbar input{
+    width: 557px;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin:0px 30px; 
+    background-color: #F0F0F0;
+    padding-left: 30px;
+}
+.search-btn{
+    border: none;
+    transform: translateX(60px);
+    background: none;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    background: url(file:///C:/Users/GuestAccount/Desktop/finallproj/projpic/shop.webp)no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 145px;
+    width: 100%;
+}
+.main-info{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+    margin: 0 auto; 
+}
+.main-section h1{
+    padding-bottom:  25px;
+    font-size: 64px;
+    font-family: "Integral CF Regular";
+    font-weight: bolder;
+}
+.main-info button{
+    padding: 16px 54px;
+    margin-top: 30px;
+    background: #000;
+    border-radius: 20px;
+    border: none;
+    color: #F0F0F0;
+}
+.main-info button a{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+}
+.main-statistic{
+    display: grid;
+    width: 50%;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+}
+.main-statistic h2{
+    font-size: 40px;
+}
+.brends{
+    display: flex;
+    background: #000;
+    justify-content: space-around;
+    padding: 42px;
+}
+.new-clothes h2{
+    font-size: 48px;
+    font-family: "Integral CF Regular";
+    display: flex;
+    justify-content: center;
+    margin-top:72px;
+    margin-bottom: 50px;
+}
+.prise p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.newarrivals{
+    margin: 20px;
+}
+ .wiev-all-btn{
+    display: flex;
+    justify-content: center;
+}
+.wiev-all-btn button{
+    width: 218px;
+    height: 52px;
+    padding: 16px 54px;
+    gap: 12px;
+    background: none;
+    border-radius: 20px;
+    border-color:  #0000001A;
+    margin-bottom: 64px;
+}
+.top-sellings h2{
+    font-size: 48px;
+    font-family: "Integral CF Regular";
+    display: flex;
+    justify-content: center;
+    margin-top:72px;
+    margin-bottom: 50px;
+}
+.topproducts{
+    margin: 20px;
+}
+.types-of-styles{
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+}
+.styles{
+    max-width: 1240px;
+    background-color: #F0F0F0;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.styles h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 74px;
+    font-size: 48px;
+    font-family: "Integral CF Regular";
+}
+.basic-styles{
+    margin-left: 90px;
+    padding-bottom: 55px;
+}
+
+.rating-of-users{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Integral CF Regular";
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+.costumers{
+    display: flex;
+    justify-content: space-around;
+}
+.comment{
+    max-width: 336px;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+    padding: 49px;
+    margin: 0px 10px;
+}
+.get-offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 115px;
+    background: #000;
+    border-radius: 20px;
+    margin-top: 68px;
+    margin-bottom: 40px;
+    transform: translateY(110px);
+}
+.text p{
+    display: flex;
+    justify-content: center;
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+}
+ .subscribe{
+margin: 30px 0px;
+margin-left: 120px;
+}
+.subscribe input{
+    width: 349px;
+    height: 48px;
+    border-radius: 20px;
+    margin: 5px;
+    border-style: none;
+}
+ .subscribe button{
+    display: block;
+    width: 349px;
+    height: 48px;
+    border-radius: 20px;
+    margin: 5px;
+    border-style: none;
+ }
+ 
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+ }
+  .footer-column{
+    background: #0000001A;
+    padding: 90px 0px;
+    padding-left: 50px;
+  }
+  .footer-column ul li{
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .footer-column h5{
+    margin-bottom: 15px;
+  }
+  .footer-column h1{
+    margin-bottom: 15px;
+    font-size: 33.5px;
+    font-weight: 700;
+    font-family: "Integral CF Regular";
+}
+
+@media (max-width:760px) {
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+ .burger-menu{
+    display:block;
+} 
+.shop-co h1 {
+   font-size: 20px;
+}
+.nav-list{
+    display: none;
+}
+.searchbar input{
+    display: none;
+}
+.search-btn{
+     transform:translateX(-1px); 
+}
+.main-info{
+    padding: 0px 24px;
+}
+.main-info h1{
+    font-size: 36px;
+}
+.main-info button{
+    width: 100%;
+    padding: 16px 54px;
+}
+.main-statistic{
+    display: flex;
+    justify-content: space-between;
+    width: 278px;
+}
+.main-statistic h2{
+    font-size: 24px;
+}
+.main-statistic p{
+    font-size: 12px;
+}
+
+div{ 
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}  
+.brends{
+     display: block;
+    padding: 0;
+}
+section{
+    flex-direction: column;
+ }
+ .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 5px;
+ }
+ .container h1{
+    font-size: 20px;
+ }
+ .wiev-all-btn button{
+    width: 100%;
+ }
+ .newarrivals img{
+    width: 198px;
+ }
+ .prise p{
+    font-size: 20px;
+ }
+ .new-clothes h2{
+    font-size: 32px;
+ }
+ .top-sellings h2{
+    font-size: 32px;
+ }
+ .topproducts img{
+    width: 198px;
+ }
+ .styles h2{
+    font-size: 32px;
+ }
+ .basic-styles{
+    padding: 0;
+    margin: 0;
+ }
+ .basic-styles img{
+    width: 100% ;
+    height: auto;
+    justify-content: center;
+ }
+ .rating-of-users h1{
+    font-size: 20px;
+    justify-content: center;
+ }
+.costumers{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.get-offers{
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin: 0;
+    transform: translateY(1px);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+}
+ .footer-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px;
+}
+}  
+
+
